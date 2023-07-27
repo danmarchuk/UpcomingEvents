@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930BA2832A72B82B00A301BB /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BA2822A72B82B00A301BB /* AddEventView.swift */; };
+		930BA2852A72BC4000A301BB /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BA2842A72BC4000A301BB /* AddEventViewModel.swift */; };
 		938609982A6EC2FC005C785C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609972A6EC2FC005C785C /* AppDelegate.swift */; };
 		9386099A2A6EC2FC005C785C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609992A6EC2FC005C785C /* SceneDelegate.swift */; };
 		9386099C2A6EC2FC005C785C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386099B2A6EC2FC005C785C /* ViewController.swift */; };
 		9386099F2A6EC2FC005C785C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9386099D2A6EC2FC005C785C /* Main.storyboard */; };
 		938609A12A6EC2FE005C785C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938609A02A6EC2FE005C785C /* Assets.xcassets */; };
 		938609A42A6EC2FE005C785C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938609A22A6EC2FE005C785C /* LaunchScreen.storyboard */; };
+		938609AC2A6EC728005C785C /* CountDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609AB2A6EC728005C785C /* CountDownCell.swift */; };
+		938609AE2A6EC843005C785C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609AD2A6EC843005C785C /* MainView.swift */; };
+		938609B02A6EC9E3005C785C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609AF2A6EC9E3005C785C /* Extensions.swift */; };
+		938609B52A6ECF76005C785C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 938609B42A6ECF76005C785C /* SnapKit */; };
+		938609B92A6EE646005C785C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938609B72A6EE646005C785C /* Poppins-Bold.ttf */; };
+		938609BA2A6EE646005C785C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938609B82A6EE646005C785C /* Poppins-Regular.ttf */; };
+		938609BC2A6EE6AE005C785C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938609BB2A6EE6AE005C785C /* Poppins-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930BA2822A72B82B00A301BB /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		930BA2842A72BC4000A301BB /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
 		938609942A6EC2FC005C785C /* UpcomingEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpcomingEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938609972A6EC2FC005C785C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938609992A6EC2FC005C785C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,12 @@
 		938609A02A6EC2FE005C785C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938609A32A6EC2FE005C785C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938609A52A6EC2FE005C785C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938609AB2A6EC728005C785C /* CountDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownCell.swift; sourceTree = "<group>"; };
+		938609AD2A6EC843005C785C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		938609AF2A6EC9E3005C785C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		938609B72A6EE646005C785C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		938609B82A6EE646005C785C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		938609BB2A6EE6AE005C785C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938609B52A6ECF76005C785C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +77,28 @@
 				938609972A6EC2FC005C785C /* AppDelegate.swift */,
 				938609992A6EC2FC005C785C /* SceneDelegate.swift */,
 				9386099B2A6EC2FC005C785C /* ViewController.swift */,
+				938609AD2A6EC843005C785C /* MainView.swift */,
+				930BA2822A72B82B00A301BB /* AddEventView.swift */,
+				930BA2842A72BC4000A301BB /* AddEventViewModel.swift */,
+				938609AF2A6EC9E3005C785C /* Extensions.swift */,
 				9386099D2A6EC2FC005C785C /* Main.storyboard */,
+				938609AB2A6EC728005C785C /* CountDownCell.swift */,
+				938609B62A6EE61F005C785C /* Fonts */,
 				938609A02A6EC2FE005C785C /* Assets.xcassets */,
 				938609A22A6EC2FE005C785C /* LaunchScreen.storyboard */,
 				938609A52A6EC2FE005C785C /* Info.plist */,
 			);
 			path = UpcomingEvents;
+			sourceTree = "<group>";
+		};
+		938609B62A6EE61F005C785C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				938609B72A6EE646005C785C /* Poppins-Bold.ttf */,
+				938609BB2A6EE6AE005C785C /* Poppins-Medium.ttf */,
+				938609B82A6EE646005C785C /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +117,9 @@
 			dependencies = (
 			);
 			name = UpcomingEvents;
+			packageProductDependencies = (
+				938609B42A6ECF76005C785C /* SnapKit */,
+			);
 			productName = UpcomingEvents;
 			productReference = 938609942A6EC2FC005C785C /* UpcomingEvents.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 9386098B2A6EC2FC005C785C;
+			packageReferences = (
+				938609B32A6ECF76005C785C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 938609952A6EC2FC005C785C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +168,9 @@
 				938609A42A6EC2FE005C785C /* LaunchScreen.storyboard in Resources */,
 				938609A12A6EC2FE005C785C /* Assets.xcassets in Resources */,
 				9386099F2A6EC2FC005C785C /* Main.storyboard in Resources */,
+				938609BC2A6EE6AE005C785C /* Poppins-Medium.ttf in Resources */,
+				938609B92A6EE646005C785C /* Poppins-Bold.ttf in Resources */,
+				938609BA2A6EE646005C785C /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9386099C2A6EC2FC005C785C /* ViewController.swift in Sources */,
+				930BA2852A72BC4000A301BB /* AddEventViewModel.swift in Sources */,
+				930BA2832A72B82B00A301BB /* AddEventView.swift in Sources */,
+				938609B02A6EC9E3005C785C /* Extensions.swift in Sources */,
 				938609982A6EC2FC005C785C /* AppDelegate.swift in Sources */,
 				9386099A2A6EC2FC005C785C /* SceneDelegate.swift in Sources */,
+				938609AE2A6EC843005C785C /* MainView.swift in Sources */,
+				938609AC2A6EC728005C785C /* CountDownCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		938609B32A6ECF76005C785C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		938609B42A6ECF76005C785C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 938609B32A6ECF76005C785C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9386098C2A6EC2FC005C785C /* Project object */;
 }
