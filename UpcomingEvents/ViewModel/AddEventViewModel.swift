@@ -22,6 +22,7 @@ class AddEventViewModel: UIViewController {
         addEventView.notesTextField.delegate = self
         addEventView.titleTextField.delegate = self
         addEventView.addButton.isEnabled = false
+        addTargetsToTheButtons()
     }
     
     private func addTargetsToTheButtons() {

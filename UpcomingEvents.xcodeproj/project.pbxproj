@@ -55,6 +55,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		930BA2862A72D27100A301BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9386099B2A6EC2FC005C785C /* ViewController.swift */,
+				930BA2842A72BC4000A301BB /* AddEventViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		930BA2872A72D28000A301BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				938609AD2A6EC843005C785C /* MainView.swift */,
+				930BA2822A72B82B00A301BB /* AddEventView.swift */,
+				938609AB2A6EC728005C785C /* CountDownCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9386098B2A6EC2FC005C785C = {
 			isa = PBXGroup;
 			children = (
@@ -76,13 +95,10 @@
 			children = (
 				938609972A6EC2FC005C785C /* AppDelegate.swift */,
 				938609992A6EC2FC005C785C /* SceneDelegate.swift */,
-				9386099B2A6EC2FC005C785C /* ViewController.swift */,
-				938609AD2A6EC843005C785C /* MainView.swift */,
-				930BA2822A72B82B00A301BB /* AddEventView.swift */,
-				930BA2842A72BC4000A301BB /* AddEventViewModel.swift */,
+				930BA2862A72D27100A301BB /* ViewModel */,
+				930BA2872A72D28000A301BB /* View */,
 				938609AF2A6EC9E3005C785C /* Extensions.swift */,
 				9386099D2A6EC2FC005C785C /* Main.storyboard */,
-				938609AB2A6EC728005C785C /* CountDownCell.swift */,
 				938609B62A6EE61F005C785C /* Fonts */,
 				938609A02A6EC2FE005C785C /* Assets.xcassets */,
 				938609A22A6EC2FE005C785C /* LaunchScreen.storyboard */,
