@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		930BA2832A72B82B00A301BB /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BA2822A72B82B00A301BB /* AddEventView.swift */; };
 		930BA2852A72BC4000A301BB /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930BA2842A72BC4000A301BB /* AddEventViewModel.swift */; };
+		937001932A7EA2CE0028782C /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937001922A7EA2CD0028782C /* MenuListViewController.swift */; };
+		937001952A7EFD8F0028782C /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937001942A7EFD8F0028782C /* QRScannerViewController.swift */; };
+		9381E9A32A7AB50800F45274 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381E9A22A7AB50800F45274 /* MenuView.swift */; };
+		9381E9A62A7AB68E00F45274 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381E9A52A7AB68E00F45274 /* Constants.swift */; };
+		9381E9A82A7AB7A300F45274 /* FuncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381E9A72A7AB7A300F45274 /* FuncManager.swift */; };
 		938609982A6EC2FC005C785C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609972A6EC2FC005C785C /* AppDelegate.swift */; };
 		9386099A2A6EC2FC005C785C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938609992A6EC2FC005C785C /* SceneDelegate.swift */; };
 		9386099C2A6EC2FC005C785C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386099B2A6EC2FC005C785C /* ViewController.swift */; };
@@ -22,11 +27,22 @@
 		938609B92A6EE646005C785C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938609B72A6EE646005C785C /* Poppins-Bold.ttf */; };
 		938609BA2A6EE646005C785C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938609B82A6EE646005C785C /* Poppins-Regular.ttf */; };
 		938609BC2A6EE6AE005C785C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938609BB2A6EE6AE005C785C /* Poppins-Medium.ttf */; };
+		93ADC3352A7BF4320057040F /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ADC3342A7BF4320057040F /* QRViewController.swift */; };
+		93ADC3382A7D32BF0057040F /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 93ADC3372A7D32BF0057040F /* SideMenu */; };
+		93B5AEB42A812FED0007B81A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 93B5AEB32A812FED0007B81A /* Realm */; };
+		93B5AEB62A812FED0007B81A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 93B5AEB52A812FED0007B81A /* RealmSwift */; };
+		93B5AEB82A8132FD0007B81A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5AEB72A8132FD0007B81A /* Event.swift */; };
+		93B5AEBA2A813BF20007B81A /* SharedEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5AEB92A813BF20007B81A /* SharedEventsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		930BA2822A72B82B00A301BB /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
 		930BA2842A72BC4000A301BB /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
+		937001922A7EA2CD0028782C /* MenuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
+		937001942A7EFD8F0028782C /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		9381E9A22A7AB50800F45274 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9381E9A52A7AB68E00F45274 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9381E9A72A7AB7A300F45274 /* FuncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncManager.swift; sourceTree = "<group>"; };
 		938609942A6EC2FC005C785C /* UpcomingEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpcomingEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938609972A6EC2FC005C785C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938609992A6EC2FC005C785C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +57,9 @@
 		938609B72A6EE646005C785C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		938609B82A6EE646005C785C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		938609BB2A6EE6AE005C785C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		93ADC3342A7BF4320057040F /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		93B5AEB72A8132FD0007B81A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		93B5AEB92A813BF20007B81A /* SharedEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedEventsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B5AEB62A812FED0007B81A /* RealmSwift in Frameworks */,
+				93B5AEB42A812FED0007B81A /* Realm in Frameworks */,
+				93ADC3382A7D32BF0057040F /* SideMenu in Frameworks */,
 				938609B52A6ECF76005C785C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +82,10 @@
 			children = (
 				9386099B2A6EC2FC005C785C /* ViewController.swift */,
 				930BA2842A72BC4000A301BB /* AddEventViewModel.swift */,
+				93ADC3342A7BF4320057040F /* QRViewController.swift */,
+				937001922A7EA2CD0028782C /* MenuListViewController.swift */,
+				937001942A7EFD8F0028782C /* QRScannerViewController.swift */,
+				93B5AEB92A813BF20007B81A /* SharedEventsViewController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -68,10 +94,22 @@
 			isa = PBXGroup;
 			children = (
 				938609AD2A6EC843005C785C /* MainView.swift */,
+				9381E9A22A7AB50800F45274 /* MenuView.swift */,
 				930BA2822A72B82B00A301BB /* AddEventView.swift */,
 				938609AB2A6EC728005C785C /* CountDownCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9381E9A42A7AB68200F45274 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				938609AF2A6EC9E3005C785C /* Extensions.swift */,
+				93B5AEB72A8132FD0007B81A /* Event.swift */,
+				9381E9A72A7AB7A300F45274 /* FuncManager.swift */,
+				9381E9A52A7AB68E00F45274 /* Constants.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9386098B2A6EC2FC005C785C = {
@@ -97,7 +135,7 @@
 				938609992A6EC2FC005C785C /* SceneDelegate.swift */,
 				930BA2862A72D27100A301BB /* ViewModel */,
 				930BA2872A72D28000A301BB /* View */,
-				938609AF2A6EC9E3005C785C /* Extensions.swift */,
+				9381E9A42A7AB68200F45274 /* Model */,
 				9386099D2A6EC2FC005C785C /* Main.storyboard */,
 				938609B62A6EE61F005C785C /* Fonts */,
 				938609A02A6EC2FE005C785C /* Assets.xcassets */,
@@ -135,6 +173,9 @@
 			name = UpcomingEvents;
 			packageProductDependencies = (
 				938609B42A6ECF76005C785C /* SnapKit */,
+				93ADC3372A7D32BF0057040F /* SideMenu */,
+				93B5AEB32A812FED0007B81A /* Realm */,
+				93B5AEB52A812FED0007B81A /* RealmSwift */,
 			);
 			productName = UpcomingEvents;
 			productReference = 938609942A6EC2FC005C785C /* UpcomingEvents.app */;
@@ -166,6 +207,8 @@
 			mainGroup = 9386098B2A6EC2FC005C785C;
 			packageReferences = (
 				938609B32A6ECF76005C785C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				93ADC3362A7D32BF0057040F /* XCRemoteSwiftPackageReference "SideMenu" */,
+				93B5AEB22A812FED0007B81A /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 938609952A6EC2FC005C785C /* Products */;
 			projectDirPath = "";
@@ -201,10 +244,18 @@
 				930BA2852A72BC4000A301BB /* AddEventViewModel.swift in Sources */,
 				930BA2832A72B82B00A301BB /* AddEventView.swift in Sources */,
 				938609B02A6EC9E3005C785C /* Extensions.swift in Sources */,
+				93B5AEB82A8132FD0007B81A /* Event.swift in Sources */,
+				9381E9A32A7AB50800F45274 /* MenuView.swift in Sources */,
+				9381E9A62A7AB68E00F45274 /* Constants.swift in Sources */,
+				937001952A7EFD8F0028782C /* QRScannerViewController.swift in Sources */,
+				9381E9A82A7AB7A300F45274 /* FuncManager.swift in Sources */,
 				938609982A6EC2FC005C785C /* AppDelegate.swift in Sources */,
 				9386099A2A6EC2FC005C785C /* SceneDelegate.swift in Sources */,
 				938609AE2A6EC843005C785C /* MainView.swift in Sources */,
+				93B5AEBA2A813BF20007B81A /* SharedEventsViewController.swift in Sources */,
+				937001932A7EA2CE0028782C /* MenuListViewController.swift in Sources */,
 				938609AC2A6EC728005C785C /* CountDownCell.swift in Sources */,
+				93ADC3352A7BF4320057040F /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +483,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		93ADC3362A7D32BF0057040F /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		93B5AEB22A812FED0007B81A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.42.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -439,6 +506,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 938609B32A6ECF76005C785C /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		93ADC3372A7D32BF0057040F /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93ADC3362A7D32BF0057040F /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		93B5AEB32A812FED0007B81A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B5AEB22A812FED0007B81A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		93B5AEB52A812FED0007B81A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B5AEB22A812FED0007B81A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

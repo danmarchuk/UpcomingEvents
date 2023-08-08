@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 
 @IBDesignable
-class AddEventView: UIView {
+final class AddEventView: UIView {
     
     init() {
         super.init(frame: UIScreen.main.bounds)

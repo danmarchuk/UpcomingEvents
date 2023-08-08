@@ -23,7 +23,7 @@ final class CountDownCell: UITableViewCell {
     
     private let countdownLabel = UILabel().apply {
         $0.font = UIFont(name: "Poppins-Regular", size: 17)
-        $0.textColor = UIColor(red: 0.35, green: 0.34, blue: 0.84, alpha: 1.0)
+        $0.textColor = K.purple
         $0.textAlignment = .right
     }
     
