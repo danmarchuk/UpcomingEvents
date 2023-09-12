@@ -33,6 +33,7 @@
 		93B5AEB62A812FED0007B81A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 93B5AEB52A812FED0007B81A /* RealmSwift */; };
 		93B5AEB82A8132FD0007B81A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5AEB72A8132FD0007B81A /* Event.swift */; };
 		93B5AEBA2A813BF20007B81A /* SharedEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5AEB92A813BF20007B81A /* SharedEventsViewController.swift */; };
+		93BA3F802AB0AD030099E096 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 93BA3F7F2AB0AD030099E096 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		93ADC3342A7BF4320057040F /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		93B5AEB72A8132FD0007B81A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		93B5AEB92A813BF20007B81A /* SharedEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedEventsViewController.swift; sourceTree = "<group>"; };
+		93BA3F7F2AB0AD030099E096 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		9386098B2A6EC2FC005C785C = {
 			isa = PBXGroup;
 			children = (
+				93BA3F7F2AB0AD030099E096 /* README.md */,
 				938609962A6EC2FC005C785C /* UpcomingEvents */,
 				938609952A6EC2FC005C785C /* Products */,
 			);
@@ -227,6 +230,7 @@
 				938609A42A6EC2FE005C785C /* LaunchScreen.storyboard in Resources */,
 				938609A12A6EC2FE005C785C /* Assets.xcassets in Resources */,
 				9386099F2A6EC2FC005C785C /* Main.storyboard in Resources */,
+				93BA3F802AB0AD030099E096 /* README.md in Resources */,
 				938609BC2A6EE6AE005C785C /* Poppins-Medium.ttf in Resources */,
 				938609B92A6EE646005C785C /* Poppins-Bold.ttf in Resources */,
 				938609BA2A6EE646005C785C /* Poppins-Regular.ttf in Resources */,
