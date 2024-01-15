@@ -21,7 +21,6 @@ final class MainView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
     let myEventsLabel = UILabel().apply {
         $0.text = "My Events"
         $0.font = UIFont(name: "Poppins-Medium", size: 34)
